@@ -15,8 +15,8 @@ svg[class*=avatarDecorationHint__] > foreignObject {
   mask: url(#svg-mask-avatar-status-round-80);
 }
 
-:root {
---font-primary: 'Comic Sans MS';
+* {
+font-familyy: 'Comic Sans MS';
 }
 
 /* @font-face {
