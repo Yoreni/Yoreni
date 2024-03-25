@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+} 
+
+
 /* hide avatar decorations */
 [class^=avatarDecoration__] {
     display: none;
@@ -16,11 +22,5 @@ svg[class*=avatarDecorationHint__] > foreignObject {
 }
 
 * {
-font-family: 'Comic Sans MS';
+font-family: "Noto Sans";
 }
-
-/* @font-face {
-  font-family: "Hina Mincho";
-  src: url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
-  unicode-range: u+0000-007f; /* Latin characters */
-} */
