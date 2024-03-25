@@ -1,0 +1,16 @@
+/* hide avatar decorations */
+[class^=avatarDecoration-] {
+  display: none;
+}
+svg[class^=bannerSVGWrapper-] > mask > image {
+  display: none;
+}
+svg[class*=avatarDecorationHint-] {
+  top: 0;
+  left: 0;
+}
+svg[class*=avatarDecorationHint-] > foreignObject {
+  width: 80px;
+  height: 80px;
+  mask: url(#svg-mask-avatar-status-round-80);
+}
