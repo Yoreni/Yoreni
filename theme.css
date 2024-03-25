@@ -14,3 +14,13 @@ svg[class*=avatarDecorationHint__] > foreignObject {
   height: 80px;
   mask: url(#svg-mask-avatar-status-round-80);
 }
+
+:root {
+--font: 'Comic Sans';
+}
+
+/* @font-face {
+  font-family: "Hina Mincho";
+  src: url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+  unicode-range: u+0000-007f; /* Latin characters */
+} */
