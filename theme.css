@@ -16,7 +16,7 @@ svg[class*=avatarDecorationHint__] > foreignObject {
 }
 
 :root {
---font: 'Comic Sans';
+--font-primary: 'Comic Sans MS';
 }
 
 /* @font-face {
