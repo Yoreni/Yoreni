@@ -24,3 +24,9 @@ svg[class*=avatarDecorationHint__] > foreignObject {
 * {
 font-family: "Noto Sans";
 }
+
+/* Hide Nitro Gift Button */
+button[aria-label="Send a Gift"] {display: none;}
+
+/* Hide Confetti Button */
+button[aria-label="Add Emoji Confetti"] {display: none;}
